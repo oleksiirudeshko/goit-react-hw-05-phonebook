@@ -1,0 +1,12 @@
+h1 {
+  color: blue;
+}
+
+.appear {
+  transform: translateX(-100%);
+}
+
+.appearActive {
+  transform: translateX(0);
+  transition: transform 500ms linear;
+}
